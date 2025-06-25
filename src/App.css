@@ -77,8 +77,6 @@ body {
   }
 }
 
-
-
 .social-icons a {
   margin-right: 15px;
   text-decoration: none;
@@ -133,4 +131,79 @@ body {
 .contact-info a {
   color: #007bff;
   text-decoration: none;
+}
+
+section {
+  padding: 60px 40px;
+  border-bottom: 1px solid #ddd;
+  background: #fff;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.skills-list {
+  list-style: disc;
+  padding-left: 20px;
+  font-size: 1.1rem;
+}
+
+.exp-item, .edu-item {
+  margin-bottom: 30px;
+}
+
+.exp-item ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+
+.styled-section {
+  padding: 60px 40px;
+  background-color: #f9f9f9;
+  border-radius: 16px;
+  margin: 40px auto;
+  max-width: 1000px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.styled-section.alt {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+}
+
+.styled-section h2 {
+  font-size: 2rem;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.styled-section ul {
+  padding-left: 20px;
+  line-height: 1.8;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.styled-section .exp-item,
+.styled-section .edu-item {
+  margin-bottom: 25px;
+}
+
+.styled-section .exp-item h3,
+.styled-section .edu-item h3 {
+  font-size: 1.3rem;
+  color: #222;
+  margin-bottom: 5px;
+}
+
+.styled-section .exp-item p,
+.styled-section .edu-item p {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 10px;
 }
